@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Book xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Articles>
+    <Article id="0_1" name="Code Stack Blog" link="https://www.codestack.net/">
+      <Nodes>
+        <Article id="0_1_1" name="SOLIDWORKS" link="#">
+          <Nodes>
+            <Article id="0_1_1_1" name="SOLIDWORKS 'Goodies'" link="https://www.codestack.net/p/solidworks-goodies.html" />
+            <Article id="0_1_1_1" name="SOLIDWORKS API" link="https://www.codestack.net/p/solidworks-api.html" />
+            <Article id="0_1_1_2" name="SOLIDWORKS PDM API" link="https://www.codestack.net/p/solidworks-pdm-api.html" />
+            <Article id="0_1_1_4" name="SOLIDWORKS Document Manager API" link="https://www.codestack.net/p/solidworks-document-manager-api.html" />
+          </Nodes>
+        </Article>
+        <Article id="0_1_2" name="Windows Presentation Foundation (WPF)" link="X" />
+        <Article id="0_1_3" name="Web" link="#">
+          <Nodes>
+            <Article id="0_1_3_1" name="HTML" link="X" />
+            <Article id="0_1_3_2" name="Angular" link="X" />
+          </Nodes>
+        </Article>
+      </Nodes>
+    </Article>
+    <Article id="0_2" name="Code Stack Services" link="#">
+      <Nodes>
+        <Article id="0_2_1" name="Snippet" link="https://snippet.codestack.net/" />
+        <Article id="0_2_2" name="Table Of Content" link="https://toc.codestack.net/" />
+      </Nodes>
+    </Article>
+  </Articles>
+</Book>

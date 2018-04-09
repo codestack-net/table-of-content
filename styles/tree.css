@@ -1,0 +1,33 @@
+#container {
+    width: 100%;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.tree-nav-node {
+    padding: 10px 15px 10px 15px;
+}
+
+.tree-node {
+    padding-left: 18px;
+}
+
+a {
+    color: blue;
+}
+
+.not-active {
+    pointer-events: none;
+    cursor: not-allowed;
+    text-decoration: unset;
+    color: grey;
+}
+
+.articles-folder {
+    pointer-events: none;
+    cursor: not-allowed;
+    text-decoration: unset;
+    color: black;
+}
