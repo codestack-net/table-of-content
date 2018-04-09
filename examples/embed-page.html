@@ -1,0 +1,20 @@
+<html>
+<head>
+    <link href="https://toc.codestack.net/styles/embed.css" rel="stylesheet"></link>
+    <script src="https://cdn.rawgit.com/davidjbradshaw/iframe-resizer/master/js/iframeResizer.min.js"></script>
+</head>
+<body>
+    <ol>
+        <li>Add the reference to embed.css script and iframe-resizer</li>
+        <li>Add iframe and set the class to 'toc'</li>
+        <li>Handle the onload event and redirect to iFrameResize(this)</li>
+        <li>Specify the table of content service url as src attribute</li>
+    </ol>
+    <iframe class="toc" onload="iFrameResize(this);"
+            src="https://toc.codestack.net/?src=https://toc.codestack.net/examples/codestack-content.xml"></iframe>
+    <ol>
+        <li>Table of Content is rendered inside the html page</li>
+        <li>The content is resizible (expand-collapse items to see the container is resized)</li>
+    </ol>
+</body>
+</html>
